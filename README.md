@@ -2,7 +2,9 @@ This project was bootstrapped with [Create Contentful App](https://github.com/co
 
 # Read only field app
 
-### When applied to a particular field it renders it ready only after the entry has been published. If the logged in user has an admin Role this feature is not applied.
+When applied to a particular field it renders it ready only after the entry has been published. If the logged in user has an admin Role this feature is not applied.
+
+![image](https://user-images.githubusercontent.com/739061/151244423-846f85e6-e301-46e5-af15-5d8a5103d038.png)
 
 Works with Text, Number, Boolean, Single Reference and Location fields in Contentful...
 
