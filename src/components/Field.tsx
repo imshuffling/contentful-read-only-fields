@@ -19,10 +19,7 @@ const Field: React.FC<FieldProps> = (props) => {
 
   // If user role is Admin check
   const isUserAdmin = sdk.user.spaceMembership.admin;
-
   const { google_maps_api_key } = sdk.parameters.installation as any;
-
-  console.log("sdk.parameters.installation", typeof(google_maps_api_key))
 
   const handleObjectUpdate = (sys: any) => {
     if (sys) {
